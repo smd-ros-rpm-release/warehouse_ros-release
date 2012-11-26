@@ -1,0 +1,12 @@
+Source: ros-groovy-warehouse-ros
+Section: misc
+Priority: extra
+Maintainer: Ioan Sucan <isucan@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-catkin,ros-groovy-roscpp,ros-groovy-rostime,ros-groovy-std-msgs,ros-groovy-rostest,ros-groovy-geometry-msgs,ros-groovy-rospy,libmongo-client-dev,mongodb-dev
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-groovy-warehouse-ros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-geometry-msgs,ros-groovy-rostime,ros-groovy-std-msgs,ros-groovy-roscpp,libmongo-client-dev,mongodb-dev
+Description: Persistent storage of ROS data using MongoDB
