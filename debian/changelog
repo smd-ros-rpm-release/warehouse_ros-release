@@ -1,0 +1,29 @@
+ros-indigo-warehouse-ros (0.8.5-0trusty) trusty; urgency=high
+
+  * Fixed malloc.h inclusion on Mac OS X
+  * Rename README.rst to README.md
+  * added travis support
+  * Contributors: Acorn, Dave Hershberger, Ioan A Sucan, Marco Esposito
+
+ -- Ioan Sucan <isucan@google.com>  Sun, 23 Feb 2014 08:00:00 -0000
+
+ros-indigo-warehouse-ros (0.8.4-0trusty) trusty; urgency=high
+
+  * update how we find MongoDB
+
+ -- Ioan Sucan <isucan@google.com>  Wed, 03 Jul 2013 07:00:00 -0000
+
+ros-indigo-warehouse-ros (0.8.2-0trusty) trusty; urgency=high
+
+  * fix typo and use correct install location
+  * add config.h.in for deciding how to include mongo headers
+
+ -- Ioan Sucan <isucan@google.com>  Wed, 03 Jul 2013 07:00:00 -0000
+
+ros-indigo-warehouse-ros (0.8.1-0trusty) trusty; urgency=high
+
+  * fix linking issues (missing SSL symbols) in deps, undef defined macros
+
+ -- Ioan Sucan <isucan@google.com>  Wed, 03 Jul 2013 07:00:00 -0000
+
+
