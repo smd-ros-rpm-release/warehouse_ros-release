@@ -1,11 +1,11 @@
 <package>
   <name>warehouse_ros</name>
-  <version>0.8.4</version>
+  <version>0.8.5</version>
   <description>
     Persistent storage of ROS data using MongoDB
   </description>
   <author email="bhaskara@willowgarage.com">Bhaskara Marthi</author>
-  <maintainer email="isucan@willowgarage.com">Ioan Sucan</maintainer>
+  <maintainer email="isucan@google.com">Ioan Sucan</maintainer>
 
   <license>BSD</license>
   <url>http://ros.org/wiki/warehouse_ros</url>
