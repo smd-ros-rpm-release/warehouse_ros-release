@@ -1,3 +1,22 @@
+## warehouse_ros (indigo) - 0.8.5-1
+
+User `isucan@isucan-glaptop0` released the packages in the `warehouse_ros` repository into the `indigo` distro by running `/usr/bin/bloom-release -t indigo -r indigo warehouse_ros` on `Tue, 25 Feb 2014 23:13:43 -0000`
+
+The `warehouse_ros` package was released.
+
+Version of package(s) in repository `warehouse_ros`:
+- rosdistro version: `null`
+- old version: `0.8.5-0`
+- new version: `0.8.5-1`
+
+Versions of tools used:
+- bloom version: `0.5.1`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## warehouse_ros - 0.8.5-0
 
 User `isucan@isucan-glaptop0` released the packages in the `warehouse_ros` repository by running `/usr/bin/bloom-release -t indigo -r indigo warehouse_ros --new-track` on `Mon, 24 Feb 2014 07:57:47 -0000`
