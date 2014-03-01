@@ -1,3 +1,22 @@
+## warehouse_ros (hydro) - 0.8.6-0
+
+User `isucan@isucan-glaptop0` released the packages in the `warehouse_ros` repository into the `hydro` distro by running `/usr/bin/bloom-release -t hydro -r hydro warehouse_ros` on `Sat, 01 Mar 2014 02:15:23 -0000`
+
+The `warehouse_ros` package was released.
+
+Version of package(s) in repository `warehouse_ros`:
+- rosdistro version: `0.8.4-0`
+- old version: `0.8.4-0`
+- new version: `0.8.6-0`
+
+Versions of tools used:
+- bloom version: `0.5.1`
+- catkin_pkg version: `0.1.26`
+- rosdep version: `0.10.25`
+- rosdistro version: `0.3.4`
+- vcstools version: `0.1.33`
+
+
 ## warehouse_ros (indigo) - 0.8.6-0
 
 User `isucan@isucan-glaptop0` released the packages in the `warehouse_ros` repository into the `indigo` distro by running `/usr/bin/bloom-release -t indigo -r indigo warehouse_ros` on `Sat, 01 Mar 2014 02:12:18 -0000`
