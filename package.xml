@@ -1,11 +1,11 @@
 <package>
   <name>warehouse_ros</name>
-  <version>0.8.4</version>
+  <version>0.8.6</version>
   <description>
     Persistent storage of ROS data using MongoDB
   </description>
   <author email="bhaskara@willowgarage.com">Bhaskara Marthi</author>
-  <maintainer email="isucan@willowgarage.com">Ioan Sucan</maintainer>
+  <maintainer email="isucan@google.com">Ioan Sucan</maintainer>
 
   <license>BSD</license>
   <url>http://ros.org/wiki/warehouse_ros</url>
@@ -20,6 +20,7 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>mongodb-dev</build_depend>
   <build_depend>curl</build_depend>
+  <build_depend>libssl-dev</build_depend>
 
   <run_depend>roscpp</run_depend>
   <run_depend>rostime</run_depend>
@@ -27,6 +28,7 @@
   <run_depend>std_msgs</run_depend>
   <run_depend>mongodb-dev</run_depend>
   <run_depend>curl</run_depend>
+  <run_depend>libssl-dev</run_depend>
   
   <test_depend>gtest</test_depend>
 
