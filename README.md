@@ -1,3 +1,24 @@
+## warehouse_ros (indigo) - 0.8.7-0
+
+The packages in the `warehouse_ros` repository were released into the `indigo` distro by running `/usr/bin/bloom-release warehouse_ros -r indigo -t indigo` on `Mon, 18 Aug 2014 05:53:26 -0000`
+
+The `warehouse_ros` package was released.
+
+Version of package(s) in repository `warehouse_ros`:
+- upstream repository: https://github.com/ros-planning/warehouse_ros.git
+- release repository: https://github.com/ros-gbp/warehouse_ros-release.git
+- rosdistro version: `0.8.6-0`
+- old version: `0.8.6-0`
+- new version: `0.8.7-0`
+
+Versions of tools used:
+- bloom version: `0.5.11`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.10.29`
+- rosdistro version: `0.3.5`
+- vcstools version: `0.1.35`
+
+
 ## warehouse_ros (hydro) - 0.8.6-0
 
 User `isucan@isucan-glaptop0` released the packages in the `warehouse_ros` repository into the `hydro` distro by running `/usr/bin/bloom-release -t hydro -r hydro warehouse_ros` on `Sat, 01 Mar 2014 02:15:23 -0000`
