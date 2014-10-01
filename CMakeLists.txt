@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(warehouse_ros)
 
+set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/" ${CMAKE_MODULE_PATH})
+
 find_package(catkin REQUIRED
   geometry_msgs
   roscpp
@@ -9,17 +11,24 @@ find_package(catkin REQUIRED
   std_msgs)
 find_package(Boost COMPONENTS system filesystem thread)
 find_package(OpenSSL)
+find_package(MongoDB)
+
+set(MONGO_EXPORT)
+if("${MongoDB_LIBRARIES}" MATCHES "\\.so$")
+  set(MONGO_EXPORT MongoDB)
+endif()
 
 file(MAKE_DIRECTORY "${CATKIN_DEVEL_PREFIX}/include")
+
+catkin_python_setup()
 
 catkin_package(
   INCLUDE_DIRS ${CATKIN_DEVEL_PREFIX}/include include
   LIBRARIES warehouse_ros
   CATKIN_DEPENDS roscpp geometry_msgs rostime std_msgs
-  DEPENDS Boost
+  DEPENDS Boost ${MONGO_EXPORT}
   )
 
-include(cmake/FindMongoDB.cmake)
 
 if (NOT MongoDB_EXPOSE_MACROS)
   add_definitions(-DMONGO_EXPOSE_MACROS)
