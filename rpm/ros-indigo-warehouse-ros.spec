@@ -9,7 +9,7 @@ URL:            http://ros.org/wiki/warehouse_ros
 Source0:        %{name}-%{version}.tar.gz
 
 Requires:       libcurl-devel
-Requires:       mongodb
+Requires:       mongodb-devel
 Requires:       openssl-devel
 Requires:       python-pymongo
 Requires:       ros-indigo-geometry-msgs
